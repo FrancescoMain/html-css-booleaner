@@ -1,0 +1,23 @@
+/* regole generali */
+
+/* regole header */
+header div {
+    background-image: url(img/pattern.png);
+    background-size: 400px;
+    background-color: #5ca4f7;
+    height: 100px;
+    
+
+    
+}
+ #svg {
+    position: relative;
+    top: 50px;
+
+ }
+
+ 
+
+/* regole main */
+
+/* regole footer */
