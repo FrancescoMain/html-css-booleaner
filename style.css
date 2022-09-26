@@ -1,19 +1,41 @@
 /* regole generali */
 
+body {
+    margin: 0px;
+}
+
 /* regole header */
-header div {
+#svg_back {
     background-image: url(img/pattern.png);
     background-size: 400px;
     background-color: #5ca4f7;
     height: 100px;
-    
-
-    
+     
 }
+
+
  #svg {
     position: relative;
     top: 50px;
 
+ }
+
+ h1 {
+    font-size: 70px; 
+    margin-bottom: 10px;
+    margin-left: 4px;
+
+ }
+
+ #firma {
+    color: grey;
+    font-size: 35px;
+    margin-left: 4px;
+
+ }
+
+ div span {
+    color: rgb(0, 174, 255);
  }
 
  
