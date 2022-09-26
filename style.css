@@ -59,7 +59,7 @@ body {
 
 /* regole main */
 main {
-    font-size: large;
+    font-size: 16px;
     margin: 4px;
 }
 
@@ -69,5 +69,36 @@ p span {
 
 ul{
     padding-left: 25px;
+}
+
+/* regole tabella */
+table{
+    border-spacing: 0px;
+
+}
+
+thead {
+    background-color: hsl(199, 94%, 55%);
+    color: white;
+
+}   
+
+#colonnap {
+font-size: 16px;
+width: 250px;
+height: 20px;
+text-align: initial;
+}
+
+#colonnal {
+    text-align: initial;
+}
+
+.celeste {
+    background-color: rgb(177, 225, 253);
+}
+
+td {
+    height: 40px;
 }
 /* regole footer */
