@@ -102,3 +102,29 @@ td {
     height: 40px;
 }
 /* regole footer */
+footer {
+    margin: 4px;
+    color: gray;
+    font-size: larger;
+}
+
+#imguno {
+    background-image: url(img/monitor.jpg);
+    background-size: contain;
+    height: 150px;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: larger;
+    margin: 4px;
+    margin-bottom: 8px;
+}
+
+#imgdue {
+    background-image: url(img/graph.jpg);
+    background-size: contain;
+    height: 150px;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: larger;
+    margin: 4px;
+}
