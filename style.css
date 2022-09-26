@@ -1,12 +1,11 @@
 /* regole generali */
-
 body {
     margin: 0px;
     
 }
 
 /* regole header */
-#svg_back {
+.svg_back {
     background-image: url(img/pattern.png);
     background-size: 400px;
     background-color: #5ca4f7;
@@ -14,61 +13,62 @@ body {
 
 }
 
-
- #svg {
+.svg {
     position: relative;
     top: 40px;
     margin-left: 4px;
 
- }
+}
 
- h1 {
+h1 {
     font-size: 40px; 
     margin-bottom: 0px;
     margin-left: 4px;
     margin-top: 8px;
 
- }
+}
 
- #firma {
+.firma {
     color: grey;
     font-size: 19px;
     margin-left: 4px;
 
- }
+}
 
- #data {
+.data {
     color: grey;
     font-size: 12px;
     margin-left: 4px;
    
- }
+}
 
- div span {
+div span {
     color: rgb(0, 174, 255);
 
- }
+}
 
- #img {
+.img {
     margin: 4px;
     margin-top: 12px;
     font-size: 12px;
- }
 
+}
  
-
 /* regole main */
 main {
     font-size: 16px;
     margin: 4px;
+
 }
 
 p span {
     background-color: yellow;
+
 }
 
 ul{
     padding-left: 25px;
+
 }
 
 /* regole tabella */
@@ -83,32 +83,38 @@ thead {
 
 }   
 
-#colonnap {
+.colonnap {
 font-size: 16px;
 width: 250px;
 height: 20px;
 text-align: initial;
+
 }
 
-#colonnal {
+.colonnal {
     text-align: initial;
+
 }
 
 .celeste {
     background-color: rgb(177, 225, 253);
+
 }
 
 td {
     height: 40px;
+
 }
+
 /* regole footer */
 footer {
     margin: 4px;
     color: gray;
     font-size: larger;
+
 }
 
-#imguno {
+.imguno {
     background-image: url(img/monitor.jpg);
     background-size: contain;
     height: 150px;
@@ -117,9 +123,10 @@ footer {
     font-size: larger;
     margin: 4px;
     margin-bottom: 8px;
+
 }
 
-#imgdue {
+.imgdue {
     background-image: url(img/graph.jpg);
     background-size: contain;
     height: 150px;
@@ -127,4 +134,5 @@ footer {
     color: white;
     font-size: larger;
     margin: 4px;
+
 }
